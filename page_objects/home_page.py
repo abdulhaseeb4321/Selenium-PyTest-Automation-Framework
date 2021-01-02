@@ -1,3 +1,5 @@
+import time
+
 from constants.locators import Locators
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -14,6 +16,8 @@ class HomePage:
         if driver.execute_script("return window.innerWidth") <= 769:
             WebDriverWait(self.driver, 20).until(
                 EC.url_contains('amp'))
+        if driver.execute_script("return window.innerWidth") > 769:
+            self.click_cookie_notice_button()
 
     def load_home_page(self):
         screen_shot = Screenshot(self.driver, self.browser, self.testcase_name)
@@ -22,6 +26,12 @@ class HomePage:
     def click_kyc_identity_verification_link(self):
         element = WebDriverWait(self.driver, 10).until(
             EC.presence_of_element_located(self.locator.kyc_identity_verification_link))
+        self.driver.execute_script('arguments[0].click()', element)
+
+    def click_cookie_notice_button(self):
+        element = WebDriverWait(self.driver, 60).until(
+            EC.presence_of_element_located(self.locator.cookie_notice_button))
+        time.sleep(1)
         self.driver.execute_script('arguments[0].click()', element)
 
     def click_background_AML_screening_link(self):

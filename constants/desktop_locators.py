@@ -7,6 +7,7 @@ class DesktopLocators:
         # =============================================================================
         # ===============================Home Page===============================
         # =============================================================================
+        cookie_notice_button = (By.XPATH,"//a[@id='cn-accept-cookie']")
         kyc_identity_verification_link = (
             By.XPATH,
             '//*[@id="home-section-sp-1"]//a[contains(text(),"KYC - Identity Verification")]')

@@ -7,7 +7,7 @@ class EmulatorLocators:
         # =============================================================================
         # ===============================Home Page Locators Locators===============================
         # =============================================================================
-
+        cookie_notice_button = (By.XPATH, "//a[@id='cn-accept-cookie']")
         kyc_identity_verification_link = (
             By.XPATH,
             '//*[@id="home-section-sp-1-mbl"]//a[contains(text(),"KYC - Identity Verification")]')

@@ -1785,3 +1785,211 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 1607887541891	Marionette	WARN	TLS certificate errors will be ignored for this session
 1607887555909	Marionette	INFO	Stopped listening on port 40121
 JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
+1608313838927	geckodriver	INFO	Listening on 127.0.0.1:34107
+1608313839874	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilerUmaLm"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1608313860172	Marionette	INFO	Listening on port 46085
+1608313860791	Marionette	WARN	TLS certificate errors will be ignored for this session
+1608313880641	geckodriver	INFO	Listening on 127.0.0.1:56249
+1608313880649	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilePJFbIz"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1608313895247	Marionette	INFO	Listening on port 39969
+1608313895292	Marionette	WARN	TLS certificate errors will be ignored for this session
+1608313898750	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://a.quora.com/qevents.js, line 1: TypeError: e.queue is undefined
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1608314010992	geckodriver	INFO	Listening on 127.0.0.1:52027
+1608314010999	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileDgWF9Q"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1608314021098	Marionette	INFO	Listening on port 42685
+1608314021202	Marionette	WARN	TLS certificate errors will be ignored for this session
+1608314036155	Marionette	INFO	Stopped listening on port 42685
+JavaScript error: resource://activity-stream/lib/ASRouter.jsm, line 987: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIObserverService.removeObserver]
+JavaScript error: chrome://global/content/elements/videocontrols.js, line 2128: TypeError: can't access dead object
+1608314039037	geckodriver	INFO	Listening on 127.0.0.1:49465
+1608314039046	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilegF4shs"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1608314048477	Marionette	INFO	Listening on port 36223
+1608314048629	Marionette	WARN	TLS certificate errors will be ignored for this session
+1608314061015	Marionette	INFO	Stopped listening on port 36223
+JavaScript error: resource://activity-stream/lib/ASRouter.jsm, line 987: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIObserverService.removeObserver]
+1608314062634	geckodriver	INFO	Listening on 127.0.0.1:38445
+1608314062640	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile9PY3Zh"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1608314071465	Marionette	INFO	Listening on port 38967
+1608314071518	Marionette	WARN	TLS certificate errors will be ignored for this session
+1608314084614	Marionette	INFO	Stopped listening on port 38967
+JavaScript error: resource://activity-stream/lib/ASRouter.jsm, line 987: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIObserverService.removeObserver]
+console.error: services.settings: 
+  main/partitioning-exempt-urls Signature failed  TypeError: NetworkError when attempting to fetch resource.
+console.error: services.settings: 
+  main/message-groups Signature failed  TypeError: NetworkError when attempting to fetch resource.
+console.error: services.settings: 
+  main/fxmonitor-breaches Signature failed  TypeError: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1608314096207	geckodriver	INFO	Listening on 127.0.0.1:41253
+1608314096213	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilevKrpKi"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1608314104532	Marionette	INFO	Listening on port 33051
+1608314104680	Marionette	WARN	TLS certificate errors will be ignored for this session
+1608314112821	Marionette	INFO	Stopped listening on port 33051
+JavaScript error: resource://activity-stream/lib/ASRouter.jsm, line 987: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIObserverService.removeObserver]
+console.warn: services.settings: main/whats-new-panel sync interrupted by shutdown
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1608314114212	geckodriver	INFO	Listening on 127.0.0.1:34541
+1608314114217	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileT8Xm9B"
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1608314122970	Marionette	INFO	Listening on port 34679
+1608314123071	Marionette	WARN	TLS certificate errors will be ignored for this session
+1608314126694	geckodriver	INFO	Listening on 127.0.0.1:38169
+1608314126701	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilezaBKa7"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1608314134785	Marionette	INFO	Stopped listening on port 34679
+1608314135383	Marionette	INFO	Listening on port 36373
+1608314135475	Marionette	WARN	TLS certificate errors will be ignored for this session
+1608314142971	Marionette	INFO	Stopped listening on port 36373
+JavaScript error: resource://activity-stream/lib/ASRouter.jsm, line 987: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIObserverService.removeObserver]
+JavaScript error: chrome://global/content/elements/videocontrols.js, line 2128: TypeError: can't access dead object
+JavaScript error: chrome://global/content/elements/videocontrols.js, line 2128: TypeError: can't access dead object
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-5PTBDQC, line 665: NS_ERROR_NOT_INITIALIZED: 
+1608314199818	geckodriver	INFO	Listening on 127.0.0.1:53239
+1608314199823	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilePI2vRw"
+1608314202425	geckodriver	INFO	Listening on 127.0.0.1:55765
+1608314202431	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileDay6pm"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1608314209515	Marionette	INFO	Listening on port 39465
+1608314209614	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1608314213511	Marionette	INFO	Listening on port 37321
+1608314213602	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 724))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 376))
+1608314222327	Marionette	INFO	Stopped listening on port 39465
+JavaScript error: resource://activity-stream/lib/ASRouter.jsm, line 987: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIObserverService.removeObserver]
+1608314225150	geckodriver	INFO	Listening on 127.0.0.1:50461
+1608314225156	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileMunP9G"
+1608314227227	Marionette	INFO	Stopped listening on port 37321
+JavaScript error: resource://activity-stream/lib/ASRouter.jsm, line 987: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIObserverService.removeObserver]
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-5PTBDQC, line 665: NS_ERROR_NOT_INITIALIZED: 
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1608314234599	Marionette	INFO	Listening on port 33955
+1608314234750	Marionette	WARN	TLS certificate errors will be ignored for this session
+1608314246193	Marionette	INFO	Stopped listening on port 33955
+JavaScript error: resource://activity-stream/lib/ASRouter.jsm, line 987: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIObserverService.removeObserver]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3A0144,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x6C0016,name=PNecko::Msg_PredLearn) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3A0144,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3A0144,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1608314260457	geckodriver	INFO	Listening on 127.0.0.1:40485
+1608314260464	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileeXEa9d"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1608314269835	Marionette	INFO	Listening on port 35761
+1608314269936	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 726))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 376))
+1608314280899	Marionette	INFO	Stopped listening on port 35761
+JavaScript error: resource://activity-stream/lib/ASRouter.jsm, line 987: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIObserverService.removeObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1608314284608	geckodriver	INFO	Listening on 127.0.0.1:45475
+1608314284613	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileWgpsPe"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1608314293827	Marionette	INFO	Listening on port 36175
+1608314293973	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 726))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 376))
+1608314305560	Marionette	INFO	Stopped listening on port 36175
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-5PTBDQC, line 665: NS_ERROR_NOT_INITIALIZED: 
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1608314308397	geckodriver	INFO	Listening on 127.0.0.1:60439
+1608314308401	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileGxKQEt"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1608314318826	Marionette	INFO	Listening on port 36845
+1608314318970	Marionette	WARN	TLS certificate errors will be ignored for this session
+1608314327271	Marionette	INFO	Stopped listening on port 36845
+JavaScript error: resource://activity-stream/lib/ASRouter.jsm, line 987: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIObserverService.removeObserver]
+1608314329326	geckodriver	INFO	Listening on 127.0.0.1:43485
+1608314329351	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile2ZeoWy"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1608314339228	Marionette	INFO	Listening on port 45289
+1608314339347	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 726))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 376))
+1608314347252	Marionette	INFO	Stopped listening on port 45289
+JavaScript error: resource://activity-stream/lib/ASRouter.jsm, line 987: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIObserverService.removeObserver]
+1608910944679	geckodriver	INFO	Listening on 127.0.0.1:60079
+1608910945581	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileUgnV1h"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1608910982300	Marionette	INFO	Listening on port 39695
+1608910982652	Marionette	WARN	TLS certificate errors will be ignored for this session
+1608911004048	Marionette	INFO	Stopped listening on port 39695
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1608911006186	geckodriver	INFO	Listening on 127.0.0.1:44109
+1608911006201	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile1M2IfZ"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+Exiting due to channel error.
+Exiting due to channel error.
+1608911072537	geckodriver	INFO	Listening on 127.0.0.1:57013
+1608911072540	geckodriver	INFO	Listening on 127.0.0.1:50687
+1608911072541	geckodriver	INFO	Listening on 127.0.0.1:52697
+1608911072546	geckodriver	INFO	Listening on 127.0.0.1:41765
+1608911072568	geckodriver	INFO	Listening on 127.0.0.1:42527
+1608911072617	geckodriver	INFO	Listening on 127.0.0.1:55523
+1608911072617	geckodriver	INFO	Listening on 127.0.0.1:48747
+1608911072627	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileqZPiTf"
+1608911072629	geckodriver	INFO	Listening on 127.0.0.1:44897
+1608911072667	geckodriver	INFO	Listening on 127.0.0.1:37109
+1608911072669	geckodriver	INFO	Listening on 127.0.0.1:56109
+1608911072692	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileOH8Aoo"
+1608911072727	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilet2965I"
+1608911072740	geckodriver	INFO	Listening on 127.0.0.1:54453
+1608911072762	geckodriver	INFO	Listening on 127.0.0.1:38159
+1608911072776	geckodriver	INFO	Listening on 127.0.0.1:42093
+1608911073487	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile9qRiAT"
+1608911073551	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilefTpfrV"
+1608911073606	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileiuVRfZ"
+1608911073608	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileE8hRsV"
+1608911073629	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilemvyngC"
+1608911073636	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilefKhqkX"
+1608911073642	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileP27fsw"
+1608911073660	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileYlM8o8"
+1608911073750	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileSQ4KKq"
+1608911073796	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile8GIu4A"
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           

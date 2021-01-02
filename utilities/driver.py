@@ -5,8 +5,8 @@ from selenium import webdriver
 class Driver:
     browser_list = [
         'chrome',
-        'firefox',
-        'Galaxy S5',
+        # 'firefox',
+        # 'Galaxy S5',
         # 'iPhone X',
     ]
 

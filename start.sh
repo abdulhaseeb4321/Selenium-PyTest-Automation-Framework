@@ -1,1 +1,1 @@
-pytest --reruns 1 -s -n=3 -m home_page ./test_cases --html=report/report.html --self-contained-html
+pytest --reruns 1 -s -n=3 -m current ./test_cases --html=report/report.html --self-contained-html

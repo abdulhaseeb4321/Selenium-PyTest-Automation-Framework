@@ -93,8 +93,9 @@ class Screenshot:
                 name = name.replace(".png", "_fail.png")
                 if not os.path.exists(dir_path_fail):
                     os.makedirs(dir_path_fail)
-                    current_img = current_img.resize(original_img)
-                fail_img = ImageChops.difference(current_img, original_img)
+                current_img = current_img.resize(original_img.size)
+                current_img = ImageChops.difference(original_img, current_img)
+                fail_img = Image.blend(current_img.convert('RGBA'), original_img.convert('RGBA'), 0.2)
                 fail_img.save(dir_path_fail + '/' + name)
             assert False
 
