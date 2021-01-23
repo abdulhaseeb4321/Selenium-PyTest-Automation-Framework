@@ -1,4 +1,4 @@
-from pytest import mark,fixture
+from pytest import mark, fixture
 import inspect
 import time
 from selenium.webdriver.support.wait import WebDriverWait
@@ -11,7 +11,6 @@ from constants.urls import Urls
 @mark.home_page
 class HomePageTests:
 
-
     @mark.current
     def test_load_home_page(self, setup):
         driver = setup['driver']
@@ -22,7 +21,6 @@ class HomePageTests:
         driver.get(Urls.home_page)
         home_page = HomePage(driver, browser, testcase_name)
         home_page.load_home_page()
-
 
     def test_click_kyc_identity_verification_link(self, setup):
         driver = setup['driver']
@@ -46,8 +44,6 @@ class HomePageTests:
         time.sleep(3)
         assert WebDriverWait(driver, 10).until(EC.url_contains(Urls.aml))
 
-
-
     def test_click_facial_biometric_authentication_link(self, setup):
         driver = setup['driver']
         browser = setup['browser']
@@ -58,8 +54,6 @@ class HomePageTests:
         home_page.click_facial_biometric_authentication_link()
         time.sleep(3)
         assert WebDriverWait(driver, 10).until(EC.url_contains(Urls.biometric_authentication))
-
-
 
     def test_click_know_your_business_KYB_link(self, setup):
         driver = setup['driver']
@@ -74,7 +68,6 @@ class HomePageTests:
         time.sleep(3)
         assert WebDriverWait(driver, 10).until(EC.url_contains(Urls.know_your_business))
 
-
     def test_click_video_interview_kYC(self, setup):
         driver = setup['driver']
         browser = setup['browser']
@@ -87,8 +80,6 @@ class HomePageTests:
         home_page.click_video_interview_kYC()
         time.sleep(3)
         assert WebDriverWait(driver, 10).until(EC.url_contains(Urls.video_kyc))
-
-
 
     def test_click_get_in_touch_button(self, setup):
         driver = setup['driver']
@@ -105,7 +96,6 @@ class HomePageTests:
         driver.switch_to.window(driver.window_handles[1])
         assert Urls.contact_us in driver.current_url
 
-
     def test_click_try_free_demo_button(self, setup):
         driver = setup['driver']
         browser = setup['browser']
@@ -120,7 +110,6 @@ class HomePageTests:
         WebDriverWait(driver, 10).until(EC.number_of_windows_to_be(2))
         driver.switch_to.window(driver.window_handles[1])
         assert Urls.try_now in driver.current_url
-
 
     def test_click_verify_with_in_seconds_link(self, setup):
         driver = setup['driver']
@@ -137,7 +126,6 @@ class HomePageTests:
         driver.switch_to.window(driver.window_handles[1])
         assert Urls.quick_verification in driver.current_url
 
-
     def test_click_background_screening_against_1700_watchlists_link(self, setup):
         driver = setup['driver']
         browser = setup['browser']
@@ -152,7 +140,6 @@ class HomePageTests:
         WebDriverWait(driver, 10).until(EC.number_of_windows_to_be(2))
         driver.switch_to.window(driver.window_handles[1])
         assert Urls.download_aml_dataset_report in driver.current_url
-
 
     def test_click_request_product_demo_link(self, setup):
         driver = setup['driver']
@@ -184,8 +171,6 @@ class HomePageTests:
         driver.switch_to.window(driver.window_handles[1])
         assert Urls.pci in driver.current_url
 
-
-
     def test_click_gdpr_link(self, setup):
         driver = setup['driver']
         browser = setup['browser']
@@ -215,4 +200,3 @@ class HomePageTests:
         WebDriverWait(driver, 10).until(EC.number_of_windows_to_be(2))
         driver.switch_to.window(driver.window_handles[1])
         assert Urls.gdpr_qg in driver.current_url
-

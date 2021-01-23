@@ -7,13 +7,14 @@ from PIL import Image, ImageChops
 
 
 class Screenshot:
+    fail_screen_shot_path = None
 
-    def __init__(self, driver,browser,testcase):
+    def __init__(self, driver, browser, testcase):
         self.driver = driver
         self.browser = browser
         self.testcase = testcase
-        self.step_count=0
-        self.path = str(Path(__file__).parent.parent)+'/screenshot'
+        self.step_count = 0
+        self.path = str(Path(__file__).parent.parent) + '/screenshot'
 
     def take_screenshot(self, driver, full_page=True):
 
@@ -38,6 +39,7 @@ class Screenshot:
                 ratio = height / visible_height
                 img = img.resize((int(width / ratio), visible_height))
                 img.save(temp_path)
+                # hide_header
                 if driver.execute_script("return document.getElementById('masthead').style.visibility") != 'hidden':
                     driver.execute_script("document.getElementById('masthead').style.visibility = 'hidden'")
                 if not full_page:
@@ -87,7 +89,6 @@ class Screenshot:
             original = imagehash.average_hash(original_img)
 
             if current == original:
-                res = [name + ' PASS']
                 assert True
             else:
                 name = name.replace(".png", "_fail.png")
@@ -97,7 +98,9 @@ class Screenshot:
                 current_img = ImageChops.difference(original_img, current_img)
                 fail_img = Image.blend(current_img.convert('RGBA'), original_img.convert('RGBA'), 0.2)
                 fail_img.save(dir_path_fail + '/' + name)
-            assert False
+                Screenshot.fail_screen_shot_path = {'fail_path': dir_path_fail + '/' + name,
+                                                    'base_path': screen_shot_path}
+                assert False
 
         else:
             if os.path.exists(dir_path_pass):

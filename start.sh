@@ -1,1 +1,2 @@
-pytest --reruns 1 -s -n=3 -m current ./test_cases --html=report/report.html --self-contained-html
+#pytest  -m current
+allure serve report/allure/my_allure_results
